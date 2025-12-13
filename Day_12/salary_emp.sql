@@ -1,0 +1,9 @@
+USE Company;
+
+SELECT *
+FROM Employee
+WHERE salary BETWEEN 40000 AND 80000;
+
+SELECT *
+FROM Employee
+WHERE name LIKE 'A%';
